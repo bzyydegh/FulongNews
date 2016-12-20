@@ -9,6 +9,7 @@
 6. 主界面使用Toolbar+TabLayout+ViewPager来实现
 7. 使用的接口来自阿凡达数据，接口调用次数有限制
 8. 搜索框使用开源的com.miguelcatalan:materialsearchview
+
 ## 截图
 picture1.png
 picture3.png
