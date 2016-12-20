@@ -11,9 +11,9 @@
 8. 搜索框使用开源的com.miguelcatalan:materialsearchview
 
 ## 截图
-picture1.png
-picture3.png
-picture7.png
-picture8.png
-picture9.png
-picture12.png
+https://github.com/bzyydegh/FulongNews/blob/master/app/Screenshot/picture1.png
+https://github.com/bzyydegh/FulongNews/blob/master/app/Screenshot/picture3.png
+https://github.com/bzyydegh/FulongNews/blob/master/app/Screenshot/picture7.png
+https://github.com/bzyydegh/FulongNews/blob/master/app/Screenshot/picture8.png
+https://github.com/bzyydegh/FulongNews/blob/master/app/Screenshot/picture9.png
+https://github.com/bzyydegh/FulongNews/blob/master/app/Screenshot/picture12.png
