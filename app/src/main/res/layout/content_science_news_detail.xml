@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_science_news_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cn.edu.gdaib.fulongnews.activity.NewsDetailActivity"
+    tools:showIn="@layout/activity_science_news_detail">
+
+    <ProgressBar
+        android:id="@+id/news_detail_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="0"
+        android:max="100"
+        android:visibility="visible"
+        android:progressDrawable="@drawable/progress_bar_state"/>
+
+    <WebView
+        android:id="@+id/news_detail_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/news_detail_progressbar" />
+
+    <ImageView
+        android:id="@+id/news_detail_iv_failure"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/load_failure"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_detail_iv_failure"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/news_detail_tv_failure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_load_fail"
+            android:textSize="25sp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/news_detail_btn_reload"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="@string/home_load_fail_reload"
+            android:textSize="18sp"
+            android:layout_toEndOf="@id/news_detail_tv_failure"
+            android:layout_marginStart="3dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

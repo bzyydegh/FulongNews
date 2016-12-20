@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">小新闻</string>
+    <string name="action_settings">设置</string>
+
+    <string name="title_home_activity">HomeActivity</string>
+    <string name="title_splash_activity">SplashActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_notify">NotifyActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_science_news_detail">ScienceNewsDetailActivity</string>
+
+    <string name="home_activity_title">新闻</string>
+    <string name="home_activity_loading">加载中</string>
+    <string name="home_activity_no_data">(＞﹏＜)没有更多数据了</string>
+    <string name="home_fragment_tab_science">科技</string>
+    <string name="home_fragment_tab_pe">体育</string>
+    <string name="home_fragment_tab_event">时事</string>
+    <string name="home_fragment_tab_tour">旅游</string>
+    <string name="home_menu_search">搜索</string>
+    <string name="home_menu_notify">消息</string>
+    <string name="home_menu_setting">设置</string>
+    <string name="home_network_fail">网络好像出问题了</string>
+
+    <string name="home_load_fail">加载失败</string>
+    <string name="home_load_fail_reload">重试</string>
+    <string name="news_detail_open_in_browser">在浏览器中打开</string>
+
+    <string name="splash_tip_word">伴您一起看世界</string>
+
+    <!--SettingActivity-->
+    <string name="xiaomi_attention">
+        <![CDATA[小米系统用户请进入系统应用:安全中心->授权管理->自启动应用管理 后允许『贝壳单词』自启动，否则无法自启动]]>
+    </string>
+    <string name="toast_close">当前为关闭。\n开启后会在你使用其他 APP
+        的时，定时弹出可爱的小『吐司』，不会妨碍你的触摸和点击事件，打扰性非常低，但却能很高效地无压力复习单词。
+    </string>
+    <string name="toast_open">当前为开启。\n开启后会在你使用其他 APP
+        的时，定时弹出可爱的小『吐司』，不会妨碍你的触摸和点击事件，打扰性非常低，但却能很高效地无压力复习单词。
+    </string>
+    <string name="notify_priority">notify_priority</string>
+
+    <!--PermissionsActivity-->
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+    <string name="permission_string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+    <string name="help">帮助</string>
+
+    <!--SearchActivity-->
+    <string name="search_tb_title">搜索</string>
+
+</resources>

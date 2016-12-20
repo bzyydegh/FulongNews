@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:layout="@layout/setting_preference_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/title_activity_setting">
+    <PreferenceCategory
+        android:layout="@layout/setting_preference_category_widget"
+        android:title="个性化">
+
+        <CheckBoxPreference
+            android:layout="@layout/setting_preference_item"
+            android:title="接收新闻推送"
+            android:key="@string/notify_priority"
+            android:summaryOn="接收新闻推送(默认)"
+            android:summaryOff="不接收，不能获取最新内容"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:layout="@layout/setting_preference_item"
+            android:title="通知栏消息字体颜色"
+            android:summaryOff="当前为黑色"
+            android:summaryOn="当前为白色"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:layout="@layout/setting_preference_item"
+            android:title="开机自启动"
+            android:summaryOn="@string/xiaomi_attention"
+            android:summaryOff="@string/xiaomi_attention"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/setting_preference_category_widget"
+        android:title="网络">
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:title="仅WI-FI联网"
+            android:summary="2G/3G/4G网络下不耗流量">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/setting_preference_category_widget"
+        android:title="账号和隐私">
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:title="账号和绑定设置">
+        </Preference>
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:title="消息和隐私设置">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/setting_preference_category_widget"
+        android:title="关于">
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:title="帮助与反馈"/>
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:summary="我的GitHub：https://github.com/bzyydegh"
+            android:title="作者：不再犹豫"/>
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:title="检查更新"/>
+        <Preference
+            android:layout="@layout/setting_preference_item"
+            android:title="退出登录"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

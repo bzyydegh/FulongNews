@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.edu.gdaib.fulongnews.activity.HomeActivity">
+
+    <item
+        android:id="@+id/home_menu_search"
+        android:icon="@drawable/ic_menu_search_white_24dp"
+        android:title="@string/home_menu_search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/home_menu_notify"
+        android:icon="@drawable/ic_menu_notifications_white_24dp"
+        android:title="@string/home_menu_notify"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/home_menu_setting"
+        android:orderInCategory="100"
+        android:title="@string/home_menu_setting"
+        app:showAsAction="never" />
+
+</menu>
